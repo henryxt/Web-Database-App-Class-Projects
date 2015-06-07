@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Dog Breed Search</title>
+</head>
+
+<body>
+  <h1>Dog Breed Search</h1>
+  <form action="DogSearchResults.php" method="post">
+    <b>Choose Search Type:</b><br />
+    <select name="searchtype">	<!--give options for the search -->
+      <option value="item_num">Item Number
+      <option value="breed">Breed
+    </select><br />
+    <b>Please enter your search text:</b><br />
+    <input name="searchterm" type="text" size="40"><br />
+    <input type="submit" name="submit" value="Search">
+  </form>
+</br>
+
+	<b>Add New Breed:</b> <br />
+  <form action = "AddItem.php" method = "post">
+	<table border = 0>
+	<tr>
+	<td>Item Num:</td>
+	<td align = "left"><input type = "text" name = "item_num"></td>
+	</tr>
+	<tr>
+	<td>Breed:</td>
+	<td align = "left"><input type = "text" name = "breed"></td>
+	</tr>
+	<tr>
+	<td>Quantity:</td>
+	<td align = "left"><input type = "text" name = "quantity"></td>
+	</tr>
+	<tr>
+	<td>Price:</td>
+	<td align = "left"><input type = "text" name = "price"></td>
+	</tr>	
+	<tr>
+	<td>
+	<input name = "submit" type = "submit" value = "Add Item">
+	</td>
+	</tr>
+	</table>
+  </form> 
+</body>
+</html>
+

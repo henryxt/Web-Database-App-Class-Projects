@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type = "text/xsl" href = "cheungDog.xsl"?>
+<!-- Henry Cheung College of Staten Island -->
+<!-- CSC226 Fall 2013 Assignment 8 -->
+<!-- Modeled after w3schools.com -->
+<dog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="cheungDog.xsd">
+	<item>
+		<item_num>1</item_num>
+		<breed>Husky</breed>
+		<quantity>5</quantity>
+		<price>300.00</price>
+	</item>
+
+	<item>
+		<item_num>2</item_num>
+		<breed>Pitbull</breed>
+		<quantity>10</quantity>
+		<price>200.00</price>
+	</item>
+
+	<item>
+		<item_num>3</item_num>
+		<breed>Labrador</breed>
+		<quantity>8</quantity>
+		<price>300.00</price>
+	</item>
+
+	<item>
+		<item_num>4</item_num>
+		<breed>Maltese</breed>
+		<quantity>3</quantity>
+		<price>340.00</price>
+	</item>
+
+</dog>
